@@ -7,19 +7,17 @@
     tools:context=".FullscreenActivity">
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:gravity="center"
         android:text="Reset"/>
-
     <TextView
         android:id="@+id/labelspd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Sprite Speed (?.?)"/>"
+        android:text="Score: 0"/>"
 
     <TextView
         android:id="@+id/labelcc"

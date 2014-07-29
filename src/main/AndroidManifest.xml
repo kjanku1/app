@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Dialog"
+            android:label="Game Over!"
+            android:theme="@android:style/Theme.Dialog"            >
+        </activity>
     </application>
 
 </manifest>
