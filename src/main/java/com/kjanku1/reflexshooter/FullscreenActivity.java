@@ -31,12 +31,14 @@ public class FullscreenActivity extends Activity implements View.OnClickListener
     MediaPlayer mp;
 
     private static final int FRAME_RATE = 20;
+    public static Activity fa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fullscreen);
 
+        fa =this;
         View btn = findViewById(R.id.btn3);
         btn.setOnClickListener(this);
 

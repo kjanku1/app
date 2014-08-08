@@ -19,6 +19,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.kjanku1.reflexshooter.Dialog;
+import com.kjanku1.reflexshooter.FullscreenActivity;
 import com.kjanku1.reflexshooter.R;
 
 import java.util.ArrayList;
